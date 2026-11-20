@@ -1,14 +1,14 @@
-\## 🤖 Offline GenAI Chatbot Using SmolLM2-360M-Instruct
+## 🤖 Offline GenAI Chatbot Using SmolLM2-360M-Instruct
 
 
 
-\## 📌 Project Overview
+## 📌 Project Overview
 
 This project implements a lightweight, \*\*100% Offline Generative AI Chatbot\*\* using Hugging Face's \*\*`HuggingFaceTB/SmolLM2-360M-Instruct`\*\* Small Language Model (SLM) and PyTorch\[cite: 4]. Once downloaded and cached locally, the chatbot runs completely offline on a standard \*\*CPU\*\* without requiring an internet connection or external API keys\[cite: 4]. It supports multi-turn conversation history, contextual follow-up answers, and interactive terminal commands.
 
 
 
-\## 🎯 Project Objectives
+## 🎯 Project Objectives
 
 \- Download and save the pretrained `SmolLM2-360M-Instruct` model and tokenizer locally using `transformers`.
 
@@ -22,7 +22,7 @@ This project implements a lightweight, \*\*100% Offline Generative AI Chatbot\*\
 
 
 
-\## 🛠️ Technologies \& Libraries Used
+## 🛠️ Technologies \& Libraries Used
 
 \- Python
 
@@ -36,7 +36,7 @@ This project implements a lightweight, \*\*100% Offline Generative AI Chatbot\*\
 
 
 
-\## 🧠 Model \& Configuration Details
+## 🧠 Model \& Configuration Details
 
 \- \*\*Model ID:\*\* `HuggingFaceTB/SmolLM2-360M-Instruct` (\~724 MB in `safetensors` format)
 
@@ -54,7 +54,7 @@ This project implements a lightweight, \*\*100% Offline Generative AI Chatbot\*\
 
 
 
-\## 💬 Key Features \& Sample Interactions
+## 💬 Key Features \& Sample Interactions
 
 1\. \*\*Offline Local Execution:\*\* Loads weights directly from the local `smollm2\_model/` directory (`local\_files\_only=True`) without internet access.
 
@@ -70,7 +70,7 @@ This project implements a lightweight, \*\*100% Offline Generative AI Chatbot\*\
 
 
 
-\## ⚙️ How to Run This Project
+## ⚙️ How to Run This Project
 
 1\. Install Python and Jupyter Notebook.
 
@@ -92,9 +92,7 @@ This project implements a lightweight, \*\*100% Offline Generative AI Chatbot\*\
 
 
 
-\## 📁 Project Structure
-
-
+## 📁 Project Structure
 
 Offline-GenAI-Chatbot-SmolLM2/
 
@@ -105,20 +103,9 @@ Offline-GenAI-Chatbot-SmolLM2/
 └── README.md
 
 
-
-
-
 Email:sakshikachare444@gmail.com
-
-
 
 GitHub: https://github.com/Sakshi-Kachare
 
 
-
-
-
 ⭐ This project demonstrates practical Generative AI deployment using Small Language Models (SLMs), local model serialization, prompt formatting with chat templates, and CPU-based offline inference.
-
-
-
